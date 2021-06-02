@@ -109,16 +109,16 @@ client.on(`message`, async message => {
 client.on('guildMemberAdd', (member) => {
 
 	const channelId = '849724986390216724' // welcome channel
-    const message = new Discord.MessageEmbed()
+    const welcEmbed = new Discord.MessageEmbed()
 		.setColor('#000000')
-		.setTitle(`Welcome`)
+		.setTitle('Welcome')
 		.setDescription(` <@${member.id}> to £chasers`)
 		.setThumbnail(${member.avatarURL})
 		.setTimestamp()
 
 
     const channel = member.guild.channels.cache.get(channelId)
-    channel.send(message)
+    channel.send(welcEmbed)
   })
 
 client.login(process.env.token);
