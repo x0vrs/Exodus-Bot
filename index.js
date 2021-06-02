@@ -113,7 +113,7 @@ client.on('guildMemberAdd', (member) => {
 		.setColor('#000000')
 		.setTitle('Welcome')
 		.setDescription(` <@${member.id}> to £chasers`)
-		.setThumbnail(${member.avatarURL})
+		.setThumbnail(`${member.avatarURL}`)
 		.setTimestamp()
 
 
