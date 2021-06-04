@@ -51,6 +51,9 @@ client.on('message', message => {
 	if(is_url(message.content) === true) {
 		message.delete()
 		return message.channel.send("Links are prohibited in this channel.")
+		  .then(msg => {
+    	  msg.delete({ timeout: 3000 })
+  		  })
     }
 
 	const Embed = new Discord.MessageEmbed()
