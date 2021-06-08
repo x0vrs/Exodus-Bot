@@ -12,6 +12,6 @@ require('discord-buttons')(client);
   client.prefix = config.prefix;
   await registerCommands(client, '../commands');
   await registerEvents(client, '../events');
-  await client.login(config.token);
+  await client.login(process.env.token);
 })();
 
