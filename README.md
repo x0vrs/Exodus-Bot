@@ -1,2 +1,2 @@
-# Paper-Chasers-Bot
+# Opem-Source Multi-Purpose Discord Bot (Basic)
  
