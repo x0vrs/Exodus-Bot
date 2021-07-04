@@ -1,2 +1,2 @@
-# Opem-Source Multi-Purpose Discord Bot (Basic)
+# Open-Source Multi-Purpose Discord Bot (Basic)
  
