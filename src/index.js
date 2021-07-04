@@ -6,6 +6,7 @@ const client = new Client();
 client.snipes = new Map();
 require('discord-buttons')(client);
 
+
 (async () => {
   client.commands = new Map();
   client.events = new Map();
