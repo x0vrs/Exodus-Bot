@@ -1,6 +1,6 @@
 # Exodus
 
-A Multi-purpose Discord bot.
+A Multi-purpose Discord bot. (Moderation, fun, utility and more!).
 
 
 # Exodus Features
